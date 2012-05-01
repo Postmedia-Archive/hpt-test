@@ -1,0 +1,36 @@
+body {overflow-x: hidden; background-color: #e2d2b1;}
+.pagewrapper {float: left; position: relative; z-index: 5;}
+#spoleft, #sporight {position: relative; z-index: 0; top: 0;}
+#spoleft {left: 12px;}
+#sporight {right: 12px;}
+
+
+#spoleft, #sporight {
+	height: 1000px;
+	width: 560px;
+	overflow: hidden;
+}
+#spoleft {
+	float: left;
+	margin: 0 0 0 -560px;
+	background: #e2d2b1;
+	background-image: url('http://hpt-test.herokuapp.com/wall_left.jpg'); /* fallback */
+	background: -webkit-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_left.jpg') right top; /* Saf4+, Chrome */
+	background: -webkit-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_left.jpg') right top; /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_left.jpg') right top; /* FF3.6+ */
+	background: -ms-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_left.jpg') right top; /* IE10 */
+	background: -o-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_left.jpg') right top; /* Opera 11.10+ */
+	background: linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_left.jpg') right top; /* W3C */	
+}
+#sporight {
+	float: right;
+	margin: 0 -560px 0 0;
+	background: #e2d2b1;
+	background-image: url('http://hpt-test.herokuapp.com/wall_right.jpg'); /* fallback */
+	background: -webkit-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_right.jpg') left top; /* Saf4+, Chrome */
+	background: -webkit-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_right.jpg') left top; /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_right.jpg') left top; /* FF3.6+ */
+	background: -ms-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_right.jpg') left top; /* IE10 */
+	background: -o-linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_right.jpg') left top; /* Opera 11.10+ */
+	background: linear-gradient(top, rgba(226,210,177,0) 90%, rgba(226,210,177,1) 99%), url('http://hpt-test.herokuapp.com/wall_right.jpg') left top; /* W3C */	
+}
